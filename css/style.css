@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 238, 223);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 20px;
+    position:sticky;
+    z-index: 1;
+    top:0;
+}
+.nav h2{
+    color:white
+}
+.menu-button{
+    width: 50px;
+    height: 40px;
+    font-size: larger;
+    border: none;
+    background-color: rgb(252, 89, 30);
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;   
+}
+.menu a:hover{
+    color:blue;
+}
+.position{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.position2{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.container button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    font-size: small;
+}
+.container .pic1{
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    width: 95%;
+    background-color: rgb(247, 221, 212);
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px;
+}
+.container2 .content2{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    gap: 10px;
+}.container2 .groupimg{
+    width: 40%;
+}
+.title{
+    text-align: center;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    gap:15px;
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+}
+.container3 .card{
+    width: 30%;
+    background-color: rgb(255, 211, 195);
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.tab{
+    background-color: rgb(252, 205, 189);
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.t2{
+    margin-left: auto;
+}
+.t4{
+    margin-left: auto;
+}
+.tab p{
+    width: 90%;
+}
+.spic{
+    width: 50px;
+    height: 50px;
+}
+.endbox{
+    width: 100%;
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.endbox .link a{
+    text-decoration: none;
+    color: white; 
+    transition: all 800ms;   
+}
+.link a:hover{
+    cursor: pointer;
+    color:blue;
+}
+.endbox .address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.endbox .link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.endbox .google{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.endbox .comb{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:780px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 100%;
+    }
+    .menu{
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        background-color: coral;
+        top:40px;
+        padding: 10px;
+        width: max-content;
+    }
+    .menu-button{
+        display:block ;
+    }
+    .container2{
+        flex-direction: column-reverse;
+    }
+    .container3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container3 .card{
+        width: 80%;
+    }
+    .endbox{
+        flex-direction: column;
+    }
+    .endbox .comb{
+        display: flex;
+        align-items: flex-start;
+    }    
+    
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lincoln Tech</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function openMenu(){
+            if(document.getElementById("menus").style.display === "none"){
+               document.getElementById("menus").style.display="flex"
+            }else{
+                document.getElementById("menus").style.display="none"
+            }   
+        }
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <h2>Lincoln Tech</h2>
+        <div class="menu" id="menus">
+            <a href="#home">HOME</a>
+            <a href="#services">SERVICE</a>
+            <a href="#">PRODUCT</a>
+            <a href="#about">ABOUT</a>
+        </div>
+        <button  onclick="openMenu()" class="menu-button"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="position">
+    <a href="https://api.whatsapp.com/send?phone=15551234567" ><img src="./image/whatsapp-icon-design.png" width="60px" height="60px"></a>
+    </div>
+    <div class="position2">
+        <a href="https://api.telegram.com/send?phone=15551234567" ><img src="./image/Telegram-icon-on-transparent-background-PNG-removebg-preview.png" width="40px" height="40px"></a>
+    </div>
+    <div class="container" id="home">
+        <div class="content">
+        <h1>Lincoln Tech</h1>
+        <h3>Empowering Futures Through Technical Education</h3>
+        <p> Brief overview of Lincoln Tech as a leading provider of </br>technical education. Emphasis on its commitment to </br>preparing students for in-demand careers.</p>
+        <button>GET STARTED</button>
+        </div>
+        <img class="pic1" src="./image/pic1.png" alt="pic"/>
+    </div>
+
+    <div class="container2">
+        <img class= "groupimg" src="./image/gp-removebg-preview (1).png " alt="picture" />
+        <div class="content2">
+            <h3>Student Support Services</h3>
+    <p>* Career service to assist with job placement.</br>
+        * Tutoring and mentorship programs to enhance student success.</br>
+    * Financial aid options to make education accessible.</p>
+        </div>
+    </div>
+
+    <h2 class="title" id="services">Services</h2>
+<div class="container3" >
+    
+    <div class="card c1">
+        <h4>AWS Certified Solutions Architect</h4><br>
+        <p><b>Overview:</b> This course prepares you for the AWS Certified Solutions Architect exam, covering cloud computing concepts, AWS services, and architectural best practices.
+        </br></br><b> Duration: </b>Around 12-15 hours of video content.
+    </br></br> <b>Ideal For:</b> Those interested in cloud computing and architecture.</p>
+    </div>
+    <div class="card c2">
+        <h4> Data Science Specialization </h4></br>
+        <p><b>Overview: </b>A comprehensive introduction to data science, including R programming, data analysis, and machine learning.</br></br>
+            <b> Duration:</b> Approximately 11 months (at 7 hours/week).</br></br>
+        <b>Ideal For: </b>Individuals looking to enter the data science field.</p>
+    </div>
+    <div class="card c3">
+        <h4>Full-Stack Web Development Specialization</h4></br>
+        <p><b>Overview:</b> This specialization teaches front-end and back-end web development using popular technologies like HTML, CSS, JavaScript, Node.js, and MongoDB.<br></br>
+            <b>Duration: </b>Approximately 6 months (at 5 hours/week).<br></br>
+            <b>Ideal For:</b> Aspiring web developers,</p>
+    </div>
+    <div class="card c4">
+        <h4>Cybersecurity Specialization</h4><br>
+        <p><b> Overview:</b> This program covers essential cybersecurity concepts, including software security, cryptography, and network security.<br></br>
+            <b> Duration:</b> Approximately 8 months (at 5 hours/week).<br></br>
+            <b> Ideal For:</b> Those interested in pursuing a career in cybersecurity.
+         </p>
+    </div>
+</div>
+
+<div class="container4"></div>
+    <div class="tab t1">
+        <p><b>Problem-Solving:</b></br> Critical thinking to troubleshoot issues.</p>
+        <img class="spic" src="./image/problem.png" alt="logo"/>
+    </div>
+    <div class="tab t2">
+        <img  class="spic" src="./image/cs.png" alt="logo"/>
+        <p><b>Communication Skills:</b></br> Effectively conveying technical information.</p>
+    </div>
+    <div class="tab t3">
+        <p><b>Team Collaboration:</b></br> Working well in diverse teams.</p>
+        <img   class="spic" src="./image/tc.png" alt="logo"/>
+    </div>
+    <div class="tab t4">
+        <img  class="spic" src="./image/dm.png" alt="logo"/>
+        <p><b>Decision-Making:</b></br> Evaluating options and making informed choices.</p>
+    </div>
+</div>
+
+<div class="endbox" id="about">
+<div class="comb">
+    <div class="address">
+    <h4>Office Address</h4>
+    <p>Rajiv Gandhi Salai,</br> Taramani,</br> Chennai - 600113, </br>Tamil Nadu, </br>Tele: 1992-4567-8976</p>
+    </div>
+    <div class="link">
+        <h4>Links</h4>
+        <div class="hashtag">
+        <a href="#home">Home</a></br>
+        <a href="#services">Service</a></br>
+        <a href="#about">About</a>
+        </div>
+    </div>
+</div>
+<div class="google">
+        <h4>Google Map</h4>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49669278.67079108!2d-148.1212805127759!3d40.551039999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b811a8e87819%3A0x3cfa79ec4dbb4cb9!2sLincoln%20Technical%20Institute!5e0!3m2!1sen!2sin!4v1727955086853!5m2!1sen!2sin" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+</div>
+</div>
+
+</body>
+</html>
