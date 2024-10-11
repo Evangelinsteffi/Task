@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(250, 238, 223);
+    background-color: rgb(239, 248, 253);
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -13,7 +13,7 @@ body{
 .nav{
     width: 100%;
     height: 8vh;
-    background-color: coral;
+    background-color: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@ body{
     height: 40px;
     font-size: larger;
     border: none;
-    background-color: rgb(252, 89, 30);
+    background-color: blue;
     color: white;
     border-radius: 10px;
     display: none;
@@ -45,17 +45,26 @@ a{
     text-decoration: none;   
 }
 .menu a:hover{
-    color:blue;
+    color:violet;
 }
 .position{
     position: fixed;
-    right: 0px;
-    bottom: 0px;
+    right: 10px;
+    bottom: 10px;
+    font-size: xx-large;
+}
+.position a{
+    color: forestgreen;
 }
 .position2{
     position: fixed;
     right: 10px;
     bottom: 50px;
+    font-size: xx-large;
+    color: cadetblue;
+}
+.position2 a{
+    color: cyan;
 }
 .container{
     display: flex;
@@ -72,7 +81,7 @@ a{
     width: 150px;
     height: 40px;
     color: white;
-    background-color: coral;
+    background-color: blue;
     border: none;
     border-radius: 10px;
     font-size: small;
@@ -85,7 +94,7 @@ a{
 }
 .container2{
     width: 95%;
-    background-color: rgb(247, 221, 212);
+    background-color: rgb(208, 226, 231);
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -105,13 +114,13 @@ a{
 .container3{
     display: flex;
     justify-content: space-around;
-    gap:15px;
+    gap:20px;
     padding-inline-end: 10px;
     padding-inline-start: 10px;
 }
 .container3 .card{
     width: 30%;
-    background-color: rgb(255, 211, 195);
+    background-color: rgb(195, 226, 255);
     padding: 15px;
     border-top-right-radius: 10px;
     border-bottom-left-radius:10px ;
@@ -121,7 +130,7 @@ a{
     align-items: center;
 }
 .tab{
-    background-color: rgb(252, 205, 189);
+    background-color: rgb(189, 237, 252);
     width: 50%;
     padding: 10px;
     border-radius: 20px;
@@ -147,7 +156,7 @@ a{
 }
 .endbox{
     width: 100%;
-    background-color: coral;
+    background-color: blue;
     color: white;
     padding: 20px;
     display: flex;
@@ -161,7 +170,7 @@ a{
 }
 .link a:hover{
     cursor: pointer;
-    color:blue;
+    color:violet;
 }
 .endbox .address{
     display: flex;
@@ -200,7 +209,7 @@ a{
         position: absolute;
         right: 0;
         flex-direction: column;
-        background-color: coral;
+        background-color: blue;
         top:40px;
         padding: 10px;
         width: max-content;
@@ -217,6 +226,9 @@ a{
     }
     .container3 .card{
         width: 80%;
+    }
+    .tab{
+        width: 95%;
     }
     .endbox{
         flex-direction: column;
